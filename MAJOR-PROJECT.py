@@ -577,7 +577,7 @@ photoimage = photo.subsample(3, 3)
 # image on LEFT side of button
 Button(root, image = photoimage,command=mic,compound = LEFT).pack(side = TOP)
 
-text=Label(root,text="~created by Shruti Goyal and Shiva Dantre", fg="black")
+text=Label(root,text="~created by Shruti Goyal", fg="black")
 text.pack(pady=80,side = BOTTOM)
 
 root.mainloop()
