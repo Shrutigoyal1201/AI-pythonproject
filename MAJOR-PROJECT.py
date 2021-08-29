@@ -492,9 +492,6 @@ dt= Button(root, text="Check Date and Time",command=dateTime, bg="black", fg="wh
 dt.pack(fill=X, padx=10,pady=20)
 
 
-cal= Button(root, text="Calculator",command=Calculator, bg="grey", fg="black")
-cal.pack(fill=X, padx=10,pady=20)
-
 rpsg= Button(root, text="Check Date and Time",command=rps, bg="black", fg="white")
 rpsg.pack(fill=X, padx=10,pady=20)
 
